@@ -1,0 +1,59 @@
+.left{
+    margin-left: 10px;
+    margin-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.right{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.contact-text{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(#1F2937);
+    }
+    .text{
+        margin-top:30px;
+        margin-left: 20px;
+    }
+    .text h6{
+      color: var(--black--);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .text p{
+        color: var(--light-gray--);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .visit-site{
+        color:var(--light-green--);
+        text-decoration: none;
+        font-weight: 700;
+        float: right;
+    
+    }
+    .visit-site:hover{
+            color:var(--light-green--); ;
+    }
+    .social-icon p{
+        font-size: 20px;
+    }
+    .form-label{
+        color: var(--gray--);
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .form-control{
+        height: 48px;
+    }
+    input:focus,textarea:focus{
+        outline: none;
+    }
+@media screen and (max-width:768px) {
+    .contact-img{
+      margin-right: 0px;
+      margin-left: 0px;
+      height: 160px;
+    }
+    
+}
