@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --light-green-- :#009F7F;
+  --black-- : #1F2937;
+  --gray--:#4B5563;
+  --light-gray--:#6B7280;
+
+
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Open Sans',sans-serif;
+  background-color: var(--light-gray--);
+
+}
+.top-space{
+  margin-top: 8rem;
+}

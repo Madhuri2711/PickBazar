@@ -1,0 +1,16 @@
+.btn-data{
+    border: none;
+    background-color: none;
+    background-color: var(--light-green--);
+    border: 1px solid var(--light-green--);
+    border-radius: 5px;
+    font-weight: 600;
+}
+@media screen and (max-width:578px) {
+    .btn-data{
+        margin-top: 10px;
+        margin-left: 0px;
+
+    }
+    
+}
